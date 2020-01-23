@@ -1038,7 +1038,7 @@
                                     "type": "audio/mp4"
                                 },
                                 "source": "/Resources/images/instructions/Slide6.png",
-                                "instructions": "Before each game you will hear and see instructions to tell you how to play.  ",
+                                "instructions": "Before each game you will hear and see instructions to tell you how to play. Then, you will see a brief demo video of the game. Next, you will have a few chances to practice the game before playing for real.",
                                 "showInstructions": true
                             },
                             {
@@ -1169,7 +1169,7 @@
                                     "src": "/Resources/sounds/instructions/16_Now_watch_video.m4a",
                                     "type": "audio/mp4"
                                 },
-                                "instructions": "Now watch a few examples to see the game. ",
+                                "instructions": "Now watch a few video examples to see the game. ",
                                 "showInstructions": true
                             },
             
@@ -1189,7 +1189,7 @@
                                     "src": "/Resources/sounds/instructions/17_Lets_practice.m4a",
                                     "type": "audio/mp4"
                                 },
-                                "instructions": "Let’s practice a few times. Remember, press the space bar to explode the firework. Try to explode it on the star between the clouds. ",
+                                "instructions": "Let’s practice a few times. Remember, press the space bar to explode the firework. Try to explode it on the star between the two clouds. ",
                                 "showInstructions": true
                             },
                             {   "id": "demo-game",
@@ -1263,7 +1263,7 @@
                                     "type": "audio/mp4"
                                 },
                                  "source": "/Resources/images/instructions/slime_1.png",
-                                 "instructions": "In this game, an alien is doing target practice by throwing slime balls into your spaceship. Your job is to open the door where the slime landed to get it out.  ",
+                                 "instructions": "In this game, an alien is doing target practice by throwing slime balls into your spaceship. Your job is to open the window where the slime landed to get it out.  ",
                                  "showInstructions": true
                             },
                             
@@ -1285,7 +1285,7 @@
                                     "type": "audio/mp4"
                                 },
                                 "source": "/Resources/images/instructions/slime_3.png",
-                                "instructions": "Then, press the button on your keyboard that goes with the window you want to open: Y for yellow, G for Green or V for Violet.    ",
+                                "instructions": "Then, press the button on your keyboard that goes with the window you want to open: Y for Yellow, G for Green or V for Violet.    ",
                                 "showInstructions": true
                             },
                     
@@ -1296,7 +1296,7 @@
                                     "type": "audio/mp4"
                                 },
                                 "source": "/Resources/images/instructions/slime_4.png",
-                                "instructions": "When you press the button, the window you selected will open. If you select the right door, you will see the slime behind it.   ",
+                                "instructions": "When you press the button, the window you selected will open. If you select the right window, you will see the slime behind it.   ",
                                 "showInstructions": true
                             },
                     
@@ -1318,7 +1318,7 @@
                                     "src": "/Resources/sounds/instructions/26_Now_watch_videos.m4a",
                                     "type": "audio/mp4"
                                 },
-                                "instructions": "Now watch some examples of the game. Try to see if you can tell if the person playing was right or wrong. If they are right, the door that opens will have the slime in it.   ",
+                                "instructions": "Now watch some video examples of the game. Try to see if you can tell if the person playing was right or wrong. If they are right, the window that opens will have the slime in it.   ",
                                 "showInstructions": true
                             },
                     
@@ -1339,7 +1339,7 @@
                                     "src": "/Resources/sounds/instructions/27_Let’s_practice.m4a",
                                     "type": "audio/mp4"
                                 },
-                                "instructions": "Let’s practice a few times. Remember, press the button that goes with the door you want to open: Y for yellow, G for Green or V for Violet. Try to get the slime out of your spaceship!   ",
+                                "instructions": "Let’s practice a few times. Remember, press the button that goes with the window you want to open: Y for Yellow, G for Green or V for Violet. Try to get the slime out of your spaceship!   ",
                                 "showInstructions": true
             
                             },
@@ -1470,7 +1470,7 @@
                                     "src": "/Resources/sounds/instructions/36_Video_examples.m4a",
                                     "type": "audio/mp4"
                                 },
-                                "instructions": "Watch a few examples. See how much pizza survives each time!",
+                                "instructions": "Watch a few video examples. See how much pizza survives each time!",
                                 "showInstructions": true
                             },
             
@@ -1655,7 +1655,7 @@
                                     "src": "/Resources/sounds/instructions/48_Watch_video.m4a",
                                     "type": "audio/mp4"
                                 },
-                                "instructions": "Watch the game first to see a few examples  ",
+                                "instructions": "Watch the game first to see a few video examples  ",
                                 "showInstructions": true
                             },
             
@@ -1817,7 +1817,7 @@
                                     "src": "/Resources/sounds/instructions/60_Now_watch_video.m4a",
                                     "type": "audio/mp4"
                                 },
-                                "instructions": "Now, watch a few different examples to see how it works. ",
+                                "instructions": "Now, watch a few video examples to see how it works. ",
                                 "showInstructions": true
                             },
                             {
