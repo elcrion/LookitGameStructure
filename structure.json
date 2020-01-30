@@ -979,8 +979,8 @@
                                 "id": "intro",
                                 "source": "/Resources/images/intro.png",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/1.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/1.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "You come across an abandoned arcade and you decide to enter. ",
                                 "showInstructions": true
@@ -988,8 +988,8 @@
                             {
                                 "id": "arcade-1",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/2.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/2.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/arcade_place.png",
                                 "instructions": "The door closes and locks behind you. To exit the arcade, you have to play five games. At the end of each game you will get to the next level. After the fifth game, the exit door will open. ",
@@ -1000,8 +1000,8 @@
                             {
                                 "id": "arcade-2",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/3.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/3.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/arcade_place.png",
                                 "instructions": "You might find some games easy and other games hard. The most important thing is to keep trying your best in each game and try to play until the end. Don’t worry if you don’t succeed at every try, just try your best. You might notice that the games are from a long time ago, so they are simpler than video games you might play now. ",
@@ -1013,8 +1013,8 @@
                                 "id" : "map",
                                 "source": "/Resources/images/instructions/map.png",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/4.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/4.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "",
                                 "showInstructions": true
@@ -1023,8 +1023,8 @@
                             {
                                 "id" : "controls",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/5.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/5.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/controllers.png",
                                 "instructions": "To play the games, sometimes you will press buttons on your computer’s keyboard. Other times, you will use your mouse or trackpad.",
@@ -1034,8 +1034,8 @@
                             {
                                 "id" : "instr",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/6.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/6.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/Slide6.png",
                                 "instructions": "Before each game you will hear and see instructions to tell you how to play.  ",
@@ -1044,8 +1044,8 @@
                             {
                                 "id" : "researchers",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/7_Please_try_your_best.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/7_Please_try_your_best.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/researchers.png",
                                 "instructions": "Please try your best to keep playing until the end of each game. This will help the scientists to have the same information from everyone who is doing this research study. Thanks for your help, and good luck playing!",
@@ -1078,8 +1078,8 @@
                                 "id" : "map",
                                 "instructions": "Click on the START button to play the first game.",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/8_Click_on_the_start_button.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/8_Click_on_the_start_button.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "showProgress": true,
                                 "fullscreen": true,
@@ -1089,8 +1089,8 @@
                              {  
                                  "id" : "button-window-instr-1",
                                  "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/9_A_fireworks_event.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/9_A_fireworks_event.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/fireworks_1.png",
                                 "instructions": "A fireworks event is happening on a cloudy night. Your job is to try to set off each firework between the clouds so everyone can see the show. ",
@@ -1100,8 +1100,8 @@
                             {
                                 "id" : "button-window-instr-2",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/10_Each_firework.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/10_Each_firework.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/fireworks_2.png",
                                 "instructions": "Each firework will start in the box. You will hear a sound when the fuse starts to burn.",
@@ -1111,8 +1111,8 @@
                             {
                                 "id" : "button-window-instr-3",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/11_When_the_fuse_ends.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/11_When_the_fuse_ends.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/fireworks_3.png",
                                 "instructions": "When the fuse ends, the firework will shoot into the air. ",
@@ -1122,8 +1122,8 @@
                             {
                                 "id" : "button-window-instr-4",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/12_When_you_press.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/12_When_you_press.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/fireworks_4.png",
                                 "instructions": "When you press the space bar, the firework will explode. Try to press  when the firework is between the clouds right at the star. ",
@@ -1133,8 +1133,8 @@
                             {
                                 "id" : "button-window-instr-5",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/13_If_you_explode_clouds.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/13_If_you_explode_clouds.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/fireworks_5.png",
                                 "instructions": "If you explode the firework between the clouds, you will see a small display and hear an explosion sound.  ",
@@ -1144,8 +1144,8 @@
                             {
                                 "id" : "button-window-instr-6",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/14_If_you_explode_star.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/14_If_you_explode_star.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/fireworks_6.png",
                                 "instructions": "If you explode it right at the star, you will see a bigger display and hear a bigger explosion. ",
@@ -1156,8 +1156,8 @@
                              {
                                 "id" : "button-window-instr-7",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/15_If_you_explode_too_low.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/15_If_you_explode_too_low.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/fireworks_7.png",
                                 "instructions": "If you explode the firework too low or behind a cloud, there will be no explosion, but you will be able to see where it stopped.  ",
@@ -1166,8 +1166,8 @@
                             {    "id" : "watch-example",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/16_Now_watch_video.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/16_Now_watch_video.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Now watch a few examples to see the game. ",
                                 "showInstructions": true
@@ -1186,8 +1186,8 @@
                             {   "id": "lets-practice",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/17_Lets_practice.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/17_Lets_practice.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Let’s practice a few times. Remember, press the space bar to explode the firework. Try to explode it on the star between the clouds. ",
                                 "showInstructions": true
@@ -1208,8 +1208,8 @@
                                 "id": "get-ready",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/18_Get_ready.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/18_Get_ready.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Get ready to play the game. Try to finish the level by exploding all of the fireworks. You will know you are finished when you see the map page again.  ",
                                 "showInstructions": true
@@ -1222,8 +1222,8 @@
             
                             {    "id": "finish-game",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/19_Excellent_finished.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/19_Excellent_finished.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/finish_1.png",
                                 "instructions": "Excellent! You finished the level. ",
@@ -1248,8 +1248,8 @@
                                 "id" : "map",
                                 "instructions": "Click on the START button to play the second game.",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/20_Click_start_2nd.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/20_Click_start_2nd.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "showProgress": true,
                                 "fullscreen": true,
@@ -1259,8 +1259,8 @@
                              {  
                                  "id" : "discrete-button-spatial-1",
                                  "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/21_In_this_game_slime.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/21_In_this_game_slime.mp3",
+                                    "type": "audio/mp3"
                                 },
                                  "source": "/Resources/images/instructions/slime_1.png",
                                  "instructions": "In this game, an alien is doing target practice by throwing slime balls into your spaceship. Your job is to open the door where the slime landed to get it out.  ",
@@ -1270,8 +1270,8 @@
                             {
                                 "id" : "discrete-button-spatial-2",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/22_You_will_hear_alien.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/22_You_will_hear_alien.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/slime_2.png",
                                 "instructions": " You will hear the alien growling. When she throws the slime, watch closely and choose the window where it landed.    ",
@@ -1281,8 +1281,8 @@
                             {
                                 "id" : "discrete-button-spatial-3",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/23_Press_button_keyboard.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/23_Press_button_keyboard.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/slime_3.png",
                                 "instructions": "Then, press the button on your keyboard that goes with the window you want to open: Y for yellow, G for Green or V for Violet.    ",
@@ -1292,8 +1292,8 @@
                             {
                                 "id" : "discrete-button-spatial-4",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/24_When_you_press_right.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/24_When_you_press_right.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/slime_4.png",
                                 "instructions": "When you press the button, the window you selected will open. If you select the right door, you will see the slime behind it.   ",
@@ -1303,8 +1303,8 @@
                             {
                                 "id" : "discrete-button-spatial-5",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/25_If_you_select_wrong.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/25_If_you_select_wrong.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/slime_5.png",
                                 "instructions": "If you select the wrong window, the window you chose will be empty and the slime will show up in the location where the alien really threw it.  ",
@@ -1315,8 +1315,8 @@
                             {    "id" : "watch-example",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/26_Now_watch_videos.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/26_Now_watch_videos.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Now watch some examples of the game. Try to see if you can tell if the person playing was right or wrong. If they are right, the door that opens will have the slime in it.   ",
                                 "showInstructions": true
@@ -1336,8 +1336,8 @@
                                 "id": "lets-practice",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/27_Let’s_practice.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/27_Let’s_practice.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Let’s practice a few times. Remember, press the button that goes with the door you want to open: Y for yellow, G for Green or V for Violet. Try to get the slime out of your spaceship!   ",
                                 "showInstructions": true
@@ -1365,8 +1365,8 @@
                             {   "id": "get-ready",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/28_Get_ready_whole_game.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/28_Get_ready_whole_game.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Get ready to play the whole game. Try to finish the level by getting out as much slime as you can. You will know you are finished when you see the map page again. ",
                                 "showInstructions": true
@@ -1378,8 +1378,8 @@
                             {
                                 "id": "finish-game",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/29_Excellent_finished_2nd.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/29_Excellent_finished_2nd.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/finish_2.png",
                                 "instructions": "Excellent! You finished the second level. ",
@@ -1406,8 +1406,8 @@
                                 "id" : "map",
                                 "instructions": "Click on the START button to play the third game.",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/31_Click_start_3rd.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/31_Click_start_3rd.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "showProgress": true,
                                 "fullscreen": true,
@@ -1417,8 +1417,8 @@
                              {
                                 "id" : "catch-instr-1",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/32_Game_trap_rat.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/32_Game_trap_rat.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/pizza_1.png",
                                 "instructions": "In this game, your goal is to trap a rat before he eats your pizza. ",
@@ -1429,8 +1429,8 @@
                             {
                                 "id" : "catch-instr-2",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/33_To_start_cage.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/33_To_start_cage.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/pizza_2.png",
                                 "instructions": "To start, the cage needs to be inside the box. Use your mouse to move the cage up and down. The box will be red until you put the cage inside it. ",
@@ -1441,8 +1441,8 @@
                              {
                                 "id" : "catch-instr-3",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/34_Drum_roll.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/34_Drum_roll.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/pizza_3.png",
                                 "instructions": "You will hear a drum roll. Next, the rat will appear.  ",
@@ -1454,8 +1454,8 @@
                     
                                 "id" : "catch-instr-4",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/35_Move_cage.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/35_Move_cage.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/pizza_4.png",
                                 "instructions": "Move the cage to catch the rat. The faster you catch it, the more pizza you will have left. Remember, start with the cage in the box and do not lift the cage until the rat appears.   ",
@@ -1467,8 +1467,8 @@
                             {    "id" : "watch-example",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/36_Video_examples.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/36_Video_examples.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Watch a few examples. See how much pizza survives each time!",
                                 "showInstructions": true
@@ -1487,8 +1487,8 @@
                             {   "id": "lets-practice",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/37_Give_Try.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/37_Give_Try.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Give it a try. Remember, do not move the cage until the rat appears! ",
                                 "showInstructions": true
@@ -1517,8 +1517,8 @@
                             {   "id": "get-ready",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/38_Get_ready_play.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/38_Get_ready_play.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Get ready to play the game. Try to save as much pizza as you can! ",
                                 "showInstructions": true
@@ -1533,8 +1533,8 @@
                             {
                                 "id": "finish-game",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/63_Excellent_finished_last.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/63_Excellent_finished_last.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/finish_5.png",
                                 "instructions": "Excellent! You finished the last level. ",
@@ -1559,8 +1559,8 @@
                                 "id" : "map",
                                 "instructions": "Click on the START button to play the fourth game.",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/40_Click_4th.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/40_Click_4th.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "showProgress": true,
                                 "fullscreen": true,
@@ -1571,8 +1571,8 @@
                              {
                                 "id" : "robot-instr-1",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/41_In_game_robot_gears.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/41_In_game_robot_gears.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_1.png",
                                 "instructions": "In this game, a robot will throw gears to you. You can use the gears to fix your broken spaceship.  ",
@@ -1582,8 +1582,8 @@
                            {
                                 "id" : "robot-instr-2",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/42_Use_Computer_mouse.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/42_Use_Computer_mouse.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_2.png",
                                 "instructions": "You will use your computer mouse to move a basket to catch the gears. The robot will throw the gears one at a time.  ",
@@ -1593,8 +1593,8 @@
                             {
                                 "id" : "robot-instr-3",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/43_Use_mouse_move_basket.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/43_Use_mouse_move_basket.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_3.png",
                                 "instructions": "To start, use your mouse to move the basket into the box and keep it still. If your basket is not all the way in the box when you start, the box will turn red. Then, you will hear the robot make a sound.   ",
@@ -1604,8 +1604,8 @@
                              {
                                 "id" : "robot-instr-4",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/44_Next_throw.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/44_Next_throw.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_4.png",
                                 "instructions": "Next, she will throw a gear. When you see the gear, move the basket to catch the gear.  ",
@@ -1615,8 +1615,8 @@
                              {
                                 "id" : "robot-instr-5",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/45_If_you_catch_gear.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/45_If_you_catch_gear.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_5.png",
                                 "instructions": "If you catch the gear, you will see it in your basket and hear a sound.  ",
@@ -1627,8 +1627,8 @@
                              {
                                 "id" : "robot-instr-6",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/46_Try_to_catch_red_spot.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/46_Try_to_catch_red_spot.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_6.png",
                                 "instructions": "Try to catch the gear right at the red spot on the basket. If you catch the gear at the red spot, you will hear a zapping sound and see red stars! ",
@@ -1639,8 +1639,8 @@
                             {
                                 "id" : "robot-instr-7",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/47_Sometimes_space_trash.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/47_Sometimes_space_trash.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_7.png",
                                 "instructions": "Sometimes when the robot throws the gear, there will be some space trash between her and your basket. Try your best to catch the gear, even when the space trash is there!   ",
@@ -1652,8 +1652,8 @@
                             {    "id" : "watch-example",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/48_Watch_video.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/48_Watch_video.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Watch the game first to see a few examples  ",
                                 "showInstructions": true
@@ -1672,8 +1672,8 @@
                             {   "id": "lets-practice",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/49_Now_practice.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/49_Now_practice.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Now you can play a few tries to get some practice. Remember, do not move the basket until the robot throws the gear! To go again, put your basket back in the box.  ",
                                 "showInstructions": true
@@ -1702,8 +1702,8 @@
                             {   "id": "get-ready",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/51_Play_Longer.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/51_Play_Longer.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Ok, now it’s time to play for longer. Try to catch the gear at the red spot. Try your best to finish the whole level and get to the map. ",
                                 "showInstructions": true
@@ -1717,8 +1717,8 @@
                             {
                                 "id": "finish-game",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/39_Excellent_3rd.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/39_Excellent_3rd.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/finish_3.png",
                                 "instructions": "Excellent! You finished the third level.  ",
@@ -1743,8 +1743,8 @@
                                 "id" : "map",
                                 "instructions": "Click on the START button to play the last game.",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/54_Click_Start_Last_game.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/54_Click_Start_Last_game.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "showProgress": true,
                                 "fullscreen": true,
@@ -1755,8 +1755,8 @@
                             {
                                 "id" : "bounce-instr-5",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/55_Goal_Bounce_Ball.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/55_Goal_Bounce_Ball.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/brick_1.png",
                                 "instructions": "In this game, your goal is to bounce a ball with a paddle to smash a wall of bricks. Behind the wall is a gold token you are trying to get. ",
@@ -1766,8 +1766,8 @@
                             {
                                 "id" : "bounce-instr-5",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/56_Start_Use_Mouse.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/56_Start_Use_Mouse.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/brick_2.png",
                                 "instructions": "To start, use your mouse to put the white paddle in the box and keep it still. If your paddle is not in the box, it will turn red. Then, you will hear a drumroll.   ",
@@ -1779,8 +1779,8 @@
             
                                 "id" : "bounce-instr-5",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/57_Ball_fly.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/57_Ball_fly.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/brick_3.png",
                                 "instructions": "Next, a ball will fly toward the paddle. Move the paddle to bounce the ball. Do not lift the paddle before the ball moves.",
@@ -1791,8 +1791,8 @@
                             {
                                 "id" : "bounce-instr-4",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/58_Hit_Wall.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/58_Hit_Wall.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/brick_4.png",
                                 "instructions": "If you hit the wall, some of the bricks will fall to the ground and you will hear some bricks crash. ",
@@ -1802,8 +1802,8 @@
                             {
                                 "id" : "bounce-instr-5",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/59_Try_bounce_red_button.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/59_Try_bounce_red_button.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/brick_5.png",
                                 "instructions": "Try your best to bounce the ball to the red button. If you hit it, you will see all of the bricks fall down and you get the token and hear a sound. ",
@@ -1814,8 +1814,8 @@
                             {    "id" : "watch-example",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/60_Now_watch_video.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/60_Now_watch_video.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Now, watch a few different examples to see how it works. ",
                                 "showInstructions": true
@@ -1832,8 +1832,8 @@
             
                             {   "id": "lets-practice",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/61_Now_practice.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/61_Now_practice.mp3",
+                                    "type": "audio/mp3"
                                 },
                                  "source": "",
                                  "instructions": "Now it’s your turn to practice a few times. Remember, do not move the paddle until the ball starts to move.",
@@ -1856,8 +1856,8 @@
                             {   "id": "get-ready",
                                 "source": "",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/62_Now_play_longer.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/62_Now_play_longer.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "instructions": "Great! Now you can play for longer. Remember, try to bounce the ball to the red button to break the wall.  ",
                                 "showInstructions": true
@@ -1870,8 +1870,8 @@
                             {
                                 "id": "finish-game",
                                 "mediaSource": {
-                                    "src": "/Resources/sounds/instructions/53_Excellent_finished_4th.m4a",
-                                    "type": "audio/mp4"
+                                    "src": "/Resources/sounds/instructions_mp3/53_Excellent_finished_4th.mp3",
+                                    "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/finish_4.png",
                                 "instructions": "Excellent! You finished the fourth level.  ",
@@ -1890,8 +1890,8 @@
                     "controller-instr": {
                         "kind":  "exp-lookit-games",
                         "mediaSource": {
-                            "src": "/Resources/sounds/instructions/30_Computer_mouse_trackpad.m4a",
-                            "type": "audio/mp4"
+                            "src": "/Resources/sounds/instructions_mp3/30_Computer_mouse_trackpad.mp3",
+                            "type": "audio/mp3"
                         },
                         "source": "/Resources/images/instructions/controls2.png",
                         "instructions": "For the next games, you will need to use your computer mouse or trackpad.",
