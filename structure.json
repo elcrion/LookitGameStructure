@@ -608,9 +608,7 @@
              
             ],
             "commonFrameProperties": {
-                "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { var gotosparkPageIndex = frames.length-2; var goodByePageIndex = frames.length-1;var wantToPlayPageIndex = frames.indexOf(frames.filter((it)=> it.id == '5-question-block' )[0]) +  (frames.filter((it)=> it.id == '5-question-block' )[0].frameOptions.length) ; var childAssentPageIndex = frames.indexOf(frames.filter((it)=> it.id == '6-children-assent' )[0]);var gameIntroPageIndex = frames.indexOf(frames.filter((it)=> it.id == '7-intro-games-group' )[0]);  var data = frameData.formData;  if (typeof(data) !== 'undefined' && typeof(data.q1) !== 'undefined' && data.q1 == 'Yes') {  return  wantToPlayPageIndex; }else if(typeof(data.readingAbilities)!== undefined && data.readingAbilities == 'No'){return wantToPlayPageIndex;} else if(typeof(data.lastNTq) !== 'undefined' &&  data.lastNTq == 'No'){ return childAssentPageIndex; } else if(typeof(data.want_to_play) !== 'undefined' &&  data.want_to_play == 'Yes'){ return gameIntroPageIndex; }else if(typeof(data.diagnosis) !== 'undefined' &&  data.diagnosis == 'Yes'){ return gotosparkPageIndex; } else if(typeof(data.want_to_play) !== 'undefined' &&  data.want_to_play == 'No'){ return goodByePageIndex; } else if(typeof(data.spark) !== 'undefined' &&  data.spark === 'Yes, I was notified about this study because I am a participant in SPARK.'){return  childAssentPageIndex;} else {return  frameIndex+1;}}",
-                "generateProperties": "function(expData, sequence, child, pastSessions) {var data = expData['5-question-block'].formData;     if (typeof(data) !== 'undefined' && typeof(data.q1) !== 'undefined' && data.q1 == 'Yes') { console.log('eligible'); return { 'ELIGIBLE': true };}  else { console.log('ineligible'); return {  'ELIGIBLE': false } } }"
-            }
+                "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) { var gotosparkPageIndex = frames.length-2; var goodByePageIndex = frames.length-1;var wantToPlayPageIndex = frames.indexOf(frames.filter((it)=> it.id == '5-question-block' )[0]) +  (frames.filter((it)=> it.id == '5-question-block' )[0].frameOptions.length) ; var childAssentPageIndex = frames.indexOf(frames.filter((it)=> it.id == '6-children-assent' )[0]);var gameIntroPageIndex = frames.indexOf(frames.filter((it)=> it.id == '7-intro-games-group' )[0]);  var data = frameData.formData;  if (typeof(data) !== 'undefined' && typeof(data.q1) !== 'undefined' && data.q1 == 'Yes') {  return  wantToPlayPageIndex; }else if(typeof(data.readingAbilities)!== undefined && data.readingAbilities == 'No'){return wantToPlayPageIndex;} else if(typeof(data.lastNTq) !== 'undefined' &&  data.lastNTq == 'No'){ return childAssentPageIndex; } else if(typeof(data.want_to_play) !== 'undefined' &&  data.want_to_play == 'Yes'){ return gameIntroPageIndex; }else if(typeof(data.diagnosis) !== 'undefined' &&  data.diagnosis == 'Yes'){ return goodByePageIndex; } else if(typeof(data.want_to_play) !== 'undefined' &&  data.want_to_play == 'No'){ return goodByePageIndex; } else if(typeof(data.spark) !== 'undefined' &&  data.spark === 'Yes, I was notified about this study because I am a participant in SPARK.'){return  childAssentPageIndex;} else {return  frameIndex+1;}}"            }
         
     },
 
@@ -662,63 +660,17 @@
 
                 },
 
-
-
-
-        "good-bye":  {
-
-            "kind": "exp-lookit-text",
-            "blocks": [
-                {
-                    "emph": true,
-                    "text": "Goodbye!"
-                },
-                {
-                    "text": "Thank you for your interest in our research. You may close your browser window to exit or click on the Lookit logo to see if there are other studies that might be a fit for your teen."
-                }
-            ],
-            "showNextButton": false,
-            "showPreviousButton": false,
-            "nextButtonText": "Finish"
-
-        },     
-        
+   
         "thank-you":  {
-
-            "kind": "exp-lookit-text",
-            "blocks": [
-                {
-                    "emph": true,
-                    "text": "Thank you!"
-                },
-                {
-                    "text": "Thank you for participating in PAIRS! We hope you enjoyed the games. You will receive an e-mail in the next two weeks with your gift card code. If you have any concerns, you may e-mail the study team at <a href=\"mailto:pairs@mit.edu\"> pairs@mit.edu </a>"
-                }
-            ],
-            "showNextButton": false,
-            "showPreviousButton": false,
-            "nextButtonText": "Finish",
-            "selectNextFrame": "function(frames, frameIndex, frameData, expData, sequence, child, pastSessions) {return frames.length - 3;}"
-
+            "kind": "exp-lookit-exit-survey",
+            "debriefing": {
+                "text": "Thank you for participating in PAIRS! We hope you enjoyed the games. You will receive an e-mail in the next two weeks with your gift card code. If you have any concerns, you may e-mail the study team at <a href=\"mailto:pairs@mit.edu\"> pairs@mit.edu </a>",
+                "title": "Thank you!"
+            },
+            "generateProperties": "function(expData, sequence, child, pastSessions) {var diagnosis_frame = expData['5-question-block-1'];var want_to_play_frame = expData['5-question-block-18']; if(typeof(diagnosis_frame) !== 'undefined' && typeof(diagnosis_frame.formData.diagnosis) !== 'undefined' && diagnosis_frame.formData.diagnosis == 'Yes') { return {'debriefing': {'text': 'If you would like to participate in this and other autism studies, you are invited to visit the <a href=\"https://sparkforautism.org/registration/account_information/#no-back-button\" target=\"_blank\">SPARK</a> website to learn about research studies. At this time, we are not able to enroll participants with autism who are not yet registered in SPARK. Thank you for your understanding.', 'title':  'Thank you for completing these questions.'} }; } else if(typeof(want_to_play_frame) !== 'undefined' && typeof(want_to_play_frame.formData.want_to_play) !== 'undefined' && want_to_play_frame.formData.want_to_play == 'No') {return {'debriefing': {'text': 'Thank you for your interest in our research. You may close your browser window to exit or click on the Lookit logo to see if there are other studies that might be a fit for your teen.', 'title':  'Goodbye!'}};} else {return {'debriefing': {'text': 'Thank you for participating in PAIRS! We hope you enjoyed the games. You will receive an e-mail in the next two weeks with your gift card code. If you have any concerns, you may e-mail the study team at <a href=\"mailto:pairs@mit.edu\"> pairs@mit.edu </a>', 'title': 'Thank you!'}}; }}"
         },  
 
 
-        "goto-spark":{
-                    
-            "kind": "exp-lookit-text",
-            "blocks": [
-                {
-                    "emph": true,
-                    "text": "Thank you for completing these questions."
-                },
-                {
-                    "text": "If you would like to participate in this and other autism studies, you are invited to visit the <a href=\"https://sparkforautism.org/registration/account_information/#no-back-button\" target=\"_blank\">SPARK</a> website to learn about research studies. At this time, we are not able to enroll participants with autism who are not yet registered in SPARK. Thank you for your understanding."
-                }
-        
-            ],
-            "showPreviousButton": false,
-            "showNextButton": false
-        },
 
 
         "children-assent":  {
@@ -1061,15 +1013,7 @@
                         }
                     },
                 
-                    "exit-survey": {
-                        "kind": "exp-lookit-exit-survey",
-                        "debriefing": {
-                            "text": "Thank you for participating in this study! ",
-                            "title": "Thank you!"
-                        }
-                    },
-                    
-            
+                  
             
                     "game1-group": {
                         "kind": "group",
@@ -1917,9 +1861,6 @@
         "game3-group",
         "game4-group",
         "game5-group",
-        "exit-survey",
-        "thank-you",
-        "goto-spark",
-        "good-bye"
+        "thank-you"
     ]
 }
