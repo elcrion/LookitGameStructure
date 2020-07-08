@@ -1026,7 +1026,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "showProgress": true,
-                                "fullscreen": true,
+                                "fullscreen": false,
                                 "sourceButton": "/Resources/images/start_button.png"
             
                             },
@@ -1196,7 +1196,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "showProgress": true,
-                                "fullscreen": true,
+                                "fullscreen": false,
                                 "sourceButton": "/Resources/images/start_button.png"
             
                             },
@@ -1354,7 +1354,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "showProgress": true,
-                                "fullscreen": true,
+                                "fullscreen": false,
                                 "sourceButton": "/Resources/images/start_button.png"
             
                             },
@@ -1507,7 +1507,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "showProgress": true,
-                                "fullscreen": true,
+                                "fullscreen": false,
                                 "sourceButton": "/Resources/images/start_button.png"
             
                             },
@@ -1691,7 +1691,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "showProgress": true,
-                                "fullscreen": true,
+                                "fullscreen": false,
                                 "sourceButton": "/Resources/images/start_button.png"
             
                             },
