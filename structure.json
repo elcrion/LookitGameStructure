@@ -1000,7 +1000,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/researchers.png",
-                                "instructions": "Please try your best to keep playing until the end of each game. This will help the scientists to have the same information from everyone who is doing this research study. Thanks for your help, and good luck playing!",
+                                "instructions": "Please try your best to keep playing until the end of each game. This will help the scientists to have the same information from everyone who is doing this research study. Thank you for your help, and good luck playing!",
                                 "showInstructions": true
                             }
             
@@ -1262,7 +1262,7 @@
                                     "src": "/Resources/sounds/instructions_mp3/26_Now_watch_videos.mp3",
                                     "type": "audio/mp3"
                                 },
-                                "instructions": "Now watch some video examples of the game. Try to see if you can tell if the person playing was right or wrong. If they are right, the window that opens will have the slime in it.   ",
+                                "instructions": "Now watch some video examples of the game. Try to see if you can tell if the person playing picked the right window. If they are right, the window that opens will have the slime in it.",
                                 "showInstructions": true
                             },
                     
@@ -1575,7 +1575,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_6.png",
-                                "instructions": "Try to catch the gear right at the red spot on the basket. If you catch the gear at the red spot, you will hear a zapping sound and see red stars! ",
+                                "instructions": "Try to catch the gear right at the red spot on the basket. If you catch the gear at the red spot, you will hear a different sound and see red stars!",
                                 "showInstructions": true
                     
                             },
@@ -1599,7 +1599,7 @@
                                     "src": "/Resources/sounds/instructions_mp3/48_Watch_video.mp3",
                                     "type": "audio/mp3"
                                 },
-                                "instructions": "Watch the game first to see a few video examples  ",
+                                "instructions": "Watch the video to see a few examples",
                                 "showInstructions": true
                             },
             
@@ -1619,7 +1619,7 @@
                                     "src": "/Resources/sounds/instructions_mp3/49_Now_practice.mp3",
                                     "type": "audio/mp3"
                                 },
-                                "instructions": "Now you can play a few tries to get some practice. Remember, do not move the basket until the robot throws the gear! To go again, put your basket back in the box.  ",
+                                "instructions": "Now you can practice a few. Remember, do not move the basket until the robot throws the gear! To go again, put your basket back in the box.",
                                 "showInstructions": true
                             },
             
