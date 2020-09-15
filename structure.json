@@ -621,7 +621,7 @@
                             "text": "",
                             "image": {
                                 "alt": "logo",
-                                "src": "https://piproject.s3.us-east-2.amazonaws.com/Resources/images/instructions/logo.png"
+                                "src": "https://npiproject.s3.us-east-2.amazonaws.com/Resources/images/instructions/logo.png"
                             },
                             "title": ""
                         },
@@ -677,7 +677,7 @@
 
                 "kind": "exp-lookit-video-assent",
                 "displayFullscreenOverride": true,
-                "baseDir": "https://piproject.s3.us-east-2.amazonaws.com/Resources/images/assent/",
+                "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com/Resources/images/assent/",
                 "participationQuestion": "Do you want to participate in this study?",
                 "pages": [   
                     {
@@ -826,7 +826,7 @@
                                         "isVideo": false,
                                         "sources": [
                                             {
-                                                "src": "https://piproject.s3.us-east-2.amazonaws.com/Resources/sounds/rattling_sound.mp3",
+                                                "src": "https://npiproject.s3.us-east-2.amazonaws.com/Resources/sounds/rattling_sound.mp3",
                                                 "type": "audio/mp3"
                                             }
                                            
@@ -976,7 +976,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com"
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com"
                         }
                     },
                 
@@ -1145,7 +1145,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 0
                         }
                         
@@ -1302,7 +1302,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 1
                         }
                         
@@ -1457,7 +1457,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 4
                         }
                         
@@ -1640,7 +1640,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 2
                         }
                         
@@ -1792,7 +1792,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 3
                         }
                         
@@ -1806,7 +1806,7 @@
                         },
                         "source": "/Resources/images/instructions/controls2.png",
                         "instructions": "For the next games, you will need to use your computer mouse or trackpad.",
-                        "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                        "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                         "showInstructions": true
                     },
 
