@@ -621,7 +621,7 @@
                             "text": "",
                             "image": {
                                 "alt": "logo",
-                                "src": "https://piproject.s3.us-east-2.amazonaws.com/Resources/images/instructions/logo.png"
+                                "src": "https://npiproject.s3.us-east-2.amazonaws.com/Resources/images/instructions/logo.png"
                             },
                             "title": ""
                         },
@@ -677,7 +677,7 @@
 
                 "kind": "exp-lookit-video-assent",
                 "displayFullscreenOverride": true,
-                "baseDir": "https://piproject.s3.us-east-2.amazonaws.com/Resources/images/assent/",
+                "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com/Resources/images/assent/",
                 "participationQuestion": "Do you want to participate in this study?",
                 "pages": [   
                     {
@@ -796,56 +796,23 @@
 
 
         
-        "parent-consent": {
-            "showPreviousButton": false,
-            "kind": "exp-lookit-video-consent",
-            "template": "consent_003",
-            "PIName": "Dagmar Sternad",
-            "institution": "Northeastern University",
-            "participation": "You and your child are free to choose whether to be in this study. If you and your child choose to participate, it’s okay to stop at any point during the session. Please do pause or stop the session if your child is unable to continue or no longer wants to participate! If this is a study with multiple sessions, it’s okay not to complete all the sessions.",
-            "PIContact": "Prof. Sternad at d.sternad@northeastern.edu or 617-373-5093.",
-            "purpose": "The goal of this study is to assess predictive abilities in children and teens using virtual games in a web - based testing platform. The study will investigate whether children with a diagnosis of autism spectrum disorder perform differently than children who are typically developing in activities that involve catching, bouncing, or reacting to a moving object.",
-            "procedures": "First, you will be asked to complete a brief questionnaire about your child’s health and development to determine if he/she is eligible for this study. If your child is not eligible, they will still have the opportunity to play the games if desired; in this case their data would not be used. However, we are unable to provide compensation for those individuals who are ineligible for the study. If your child is eligible, your child may be asked to participate in up to five games that test their abilities to interact with moving objects. These games are deployed online, so children can play them at home with a parent. We ask that you stay in the room while your child completes the games. We also ask that you do not help them play by making suggestions, reacting to their performance, discussing strategy, or demonstrating the games. It does not matter how well your child does each task; it is more important that he/she tries his/her best. We will help your child understand the tasks by showing them pictures, demonstrating, and asking them to practice the tasks briefly. The game session lasts approximately 30 minutes. You can also opt to participate in a second optional follow - up session within a week of your initial participation, to help us learn how children perform a while after learning the games. The second session is not required in order to be eligible to participate in the first session.",
-            "payment": "Your child will receive compensation valued at $10 for each game session that they complete (up to two visits per child). There are no additional benefits anticipated to you or your child for participation in this research study.",
-            "datause": "The research group led by Pawan Sinha, PhD at Massachusetts Institute of Technology and Dagmar Sternad, PhD at Northeastern University will have access to video and other data collected during this session. We will also have access to your Lookit account profile, demographic survey, and the child profile for the child who is participating, including changes you make in the future to any of this information. For those individuals who participated in the SPARK part of this study, we are asking your consent for the SPARK study, hosted by the Simons Foundation, to share with Massachusetts Institute of Technology and Northeastern University researchers the clinical, demographic and genetic data collected during your participation in SPARK. This information will be shared using your linked research ID number and using a secure transfer system. We are also asking for your consent to share the data we collect during the web-based study at Massachusetts Institute of Technology and Northeastern University with SPARK, in order to add to the information that was collected during your participation in SPARK. Please note that because you are a participant in both studies, SPARK and this study will be able to share and link your identifying information as well as any future data you may contribute to either project. The Simons Foundation funds innovative research and provides coded data access (data with your identifying information removed) to qualified researchers. Researchers can file an application with the Simons Foundation to obtain access to your study data for research purposes. Experts at the Simons Foundation who protect health and science information will look at every request carefully to minimize risks to your privacy.",
-            "gdpr": false,
-            "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study.  If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Chairman of the Committee on the Use of Humans as Experimental Subjects, M.I.T., Room E25-143B, 77 Massachusetts Ave, Cambridge, MA 02139, phone 1-617-253 6787."
-        },
-
-
-
-            "controller-settings":{
-
-                        "kind": "exp-lookit-survey",
-                        "formSchema": {
-                            "schema": {
-                                "type": "object",
-                                "title": "Settings",
-                                "properties": {
-                                    "controllers": {
-                                        "enum": [
-                                            "Mouse",
-                                            "Trackpad"
-                                        ],
-                                        
-                                        "type": "string",
-                                        "title": "<ul> <li>  Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the “/maximize/” button at the top of your browser window. </li> <li> Are you using a mouse or trackpad? If you have both, please use the one you selected for the remainder of the study. </li></ul>  ",
-                                        "required": true
-                                    }
-                                }
-                            },
-                            "options": {
-                                "fields": {
-                                    "controllers": {
-                                        "type": "radio",
-                                        "message": "Please answer this question.",
-                                        "validator": "required-field"
-                                    }
-                                }
-                            }
-                        },
-                        "showPreviousButton": false
+                    "parent-consent": {
+                        "showPreviousButton": false,
+                        "kind": "exp-lookit-video-consent",
+                        "template": "consent_003",
+                        "PIName": "Dagmar Sternad",
+                        "institution": "Northeastern University",
+                        "participation": "You and your child are free to choose whether to be in this study. If you and your child choose to participate, it’s okay to stop at any point during the session. Please do pause or stop the session if your child is unable to continue or no longer wants to participate! If this is a study with multiple sessions, it’s okay not to complete all the sessions.",
+                        "PIContact": "Prof. Sternad at d.sternad@northeastern.edu or 617-373-5093.",
+                        "purpose": "The goal of this study is to assess predictive abilities in children and teens using virtual games in a web - based testing platform. The study will investigate whether children with a diagnosis of autism spectrum disorder perform differently than children who are typically developing in activities that involve catching, bouncing, or reacting to a moving object.",
+                        "procedures": "First, you will be asked to complete a brief questionnaire about your child’s health and development to determine if he/she is eligible for this study. If your child is not eligible, they will still have the opportunity to play the games if desired; in this case their data would not be used. However, we are unable to provide compensation for those individuals who are ineligible for the study. If your child is eligible, your child may be asked to participate in up to five games that test their abilities to interact with moving objects. These games are deployed online, so children can play them at home with a parent. We ask that you stay in the room while your child completes the games. We also ask that you do not help them play by making suggestions, reacting to their performance, discussing strategy, or demonstrating the games. It does not matter how well your child does each task; it is more important that he/she tries his/her best. We will help your child understand the tasks by showing them pictures, demonstrating, and asking them to practice the tasks briefly. The game session lasts approximately 30 minutes. You can also opt to participate in a second optional follow - up session within a week of your initial participation, to help us learn how children perform a while after learning the games. The second session is not required in order to be eligible to participate in the first session.",
+                        "payment": "Your child will receive compensation valued at $10 for each game session that they complete (up to two visits per child). There are no additional benefits anticipated to you or your child for participation in this research study.",
+                        "datause": "The research group led by Pawan Sinha, PhD at Massachusetts Institute of Technology and Dagmar Sternad, PhD at Northeastern University will have access to video and other data collected during this session. We will also have access to your Lookit account profile, demographic survey, and the child profile for the child who is participating, including changes you make in the future to any of this information. For those individuals who participated in the SPARK part of this study, we are asking your consent for the SPARK study, hosted by the Simons Foundation, to share with Massachusetts Institute of Technology and Northeastern University researchers the clinical, demographic and genetic data collected during your participation in SPARK. This information will be shared using your linked research ID number and using a secure transfer system. We are also asking for your consent to share the data we collect during the web-based study at Massachusetts Institute of Technology and Northeastern University with SPARK, in order to add to the information that was collected during your participation in SPARK. Please note that because you are a participant in both studies, SPARK and this study will be able to share and link your identifying information as well as any future data you may contribute to either project. The Simons Foundation funds innovative research and provides coded data access (data with your identifying information removed) to qualified researchers. Researchers can file an application with the Simons Foundation to obtain access to your study data for research purposes. Experts at the Simons Foundation who protect health and science information will look at every request carefully to minimize risks to your privacy.",
+                        "gdpr": false,
+                        "research_rights_statement": "You are not waiving any legal claims, rights or remedies because of your participation in this research study.  If you feel you have been treated unfairly, or you have questions regarding your rights as a research subject, you may contact the Chairman of the Committee on the Use of Humans as Experimental Subjects, M.I.T., Room E25-143B, 77 Massachusetts Ave, Cambridge, MA 02139, phone 1-617-253 6787."
                     },
+
+
 
                    "audio-check": {
                         "kind": "exp-lookit-instructions",
@@ -859,7 +826,7 @@
                                         "isVideo": false,
                                         "sources": [
                                             {
-                                                "src": "https://piproject.s3.us-east-2.amazonaws.com/Resources/sounds/rattling_sound.mp3",
+                                                "src": "https://npiproject.s3.us-east-2.amazonaws.com/Resources/sounds/rattling_sound.mp3",
                                                 "type": "audio/mp3"
                                             }
                                            
@@ -1009,7 +976,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com"
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com"
                         }
                     },
                 
@@ -1178,7 +1145,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 0
                         }
                         
@@ -1335,7 +1302,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 1
                         }
                         
@@ -1490,7 +1457,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 4
                         }
                         
@@ -1673,7 +1640,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 2
                         }
                         
@@ -1825,7 +1792,7 @@
             
                         "commonFrameProperties": {
                             "kind":  "exp-lookit-games",
-                            "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                             "gameType": 3
                         }
                         
@@ -1839,9 +1806,45 @@
                         },
                         "source": "/Resources/images/instructions/controls2.png",
                         "instructions": "For the next games, you will need to use your computer mouse or trackpad.",
-                        "baseDir": "https://piproject.s3.us-east-2.amazonaws.com",
+                        "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                         "showInstructions": true
-                    }
+                    },
+
+                     "settings-block": {
+                        "kind": "exp-frame-select",
+                        "frameOptions": [
+                            {
+                                
+                                "kind": "exp-lookit-survey",
+                                "formSchema": {
+                                    "schema": {
+                                        "type": "object",
+                                        "title": "<ul> <li>Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the maximize button at the top of your browser window. </li> <li> Are you using a mouse or trackpad? If you have both, please use the one you selected for the remainder of the study. </li></ul>",
+                                        "properties": {
+                                            "q1": {
+                                                "enum": [
+                                                    "Mouse",
+                                                    "Trackpad"
+                                                ],
+                                                "type": "string",
+                                                "required": true
+                                            }
+                                        }
+                                    },
+                                    "options": {
+                                        "fields": {
+                                            "q1": {
+                                                "type": "radio",
+                                                "message": "Please answer this question.",
+                                                "validator": "required-field"
+                                            }
+                                        }
+                                    }
+                                },
+                                "showPreviousButton": false
+                            }
+                ]
+          }
                     
                 },
 
@@ -1849,7 +1852,7 @@
     "sequence": [
         "intro-study",
         "desktop-settings",
-        "controller-settings",
+        "settings-block",
         "audio-check",    
         "parent-consent",  
         "question-block",
