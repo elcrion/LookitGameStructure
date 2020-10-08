@@ -1815,17 +1815,19 @@
                         "frameList": [
                             {
                                 "id" : "map",
-                                "instructions": " ",
                                 "source": "/Resources/images/instructions/map_exit.png",
-                                "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
-                                "showInstructions": false
-                            },     
-                            {
-                                "id" : "instr",
-                                "instructions": "Great! You made it out of the Arcade and finished our research study!\nPlease ask your parent to complete the next page in order to get your gift card.",          
+                                "mediaSource": {
+                                    "src": "/Resources/sounds/instructions_mp3/4.mp3",
+                                    "type": "audio/mp3"
+                                },
+                                "instructions": "Great! You made it out of the Arcade and finished our research study!\nPlease ask your parent to complete the next page in order to get your gift card.",
                                 "showInstructions": true
-                            }     
-                        ]           
+                            }
+                        ],  
+                        "commonFrameProperties": {
+                            "kind":  "exp-lookit-games",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com"
+                        }
                      },       
         
                      "settings-block": {
