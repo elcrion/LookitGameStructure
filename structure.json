@@ -1839,7 +1839,7 @@
                                 "formSchema": {
                                     "schema": {
                                         "type": "object",
-                                        "title": "<ul> <li>Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the maximize button at the top of your browser window. </li> <li> Are you using a mouse or trackpad? If you have both, please use the one you selected for the remainder of the study. </li></ul>",
+                                        "title": "<ul> <li>Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the maximize button at the top of your browser window. </li> <li> Please, do not refresh this page while playing. </li> <li> Are you using a mouse or trackpad?</li> <li> If you have both, please use the one you selected for the remainder of the study. </li></ul>",
                                         "properties": {
                                             "q1": {
                                                 "enum": [
