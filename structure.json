@@ -1830,6 +1830,43 @@
                         }
                      },       
         
+        "handedness-block": {
+                        "kind": "exp-frame-select",
+                        "frameOptions": [
+                            {
+                                
+                                "kind": "exp-lookit-survey",
+                                "formSchema": {
+                                    "schema": {
+                                        "type": "object",
+                                        "title": "<ul> <li> Which is your dominant hand? </li></ul>",
+                                        "properties": {
+                                            "q1": {
+                                                "enum": [
+                                                    "Right",
+                                                    "Left",
+                                                    "Ambidextrous"
+                                                ],
+                                                "type": "string",
+                                                "required": true
+                                            }
+                                        }
+                                    },
+                                    "options": {
+                                        "fields": {
+                                            "q1": {
+                                                "type": "radio",
+                                                "message": "Please answer this question.",
+                                                "validator": "required-field"
+                                            }
+                                        }
+                                    }
+                                },
+                                "showPreviousButton": false
+                            }
+                ]
+          },
+        
                      "settings-block": {
                         "kind": "exp-frame-select",
                         "frameOptions": [
@@ -1877,6 +1914,7 @@
         "parent-consent",  
         "question-block",
         "children-assent",
+        "handedness-block",
         "intro-games-group",
         "game1-group",
         "game2-group",
