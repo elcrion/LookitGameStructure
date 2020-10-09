@@ -1863,6 +1863,36 @@
                                     }
                                 },
                                 "showPreviousButton": false
+                            },
+                            {
+                                
+                                "kind": "exp-lookit-survey",
+                                "formSchema": {
+                                    "schema": {
+                                        "type": "object",
+                                        "title": "<ul> <li> Which hand do you normally use at the computer? Please pick one and use it for the whole study. </li></ul>",
+                                        "properties": {
+                                            "q1": {
+                                                "enum": [
+                                                    "Right",
+                                                    "Left"
+                                                ],
+                                                "type": "string",
+                                                "required": true
+                                            }
+                                        }
+                                    },
+                                    "options": {
+                                        "fields": {
+                                            "q1": {
+                                                "type": "radio",
+                                                "message": "Please answer this question.",
+                                                "validator": "required-field"
+                                            }
+                                        }
+                                    }
+                                },
+                                "showPreviousButton": false
                             }
                 ]
           },
