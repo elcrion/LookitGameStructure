@@ -696,7 +696,7 @@
                     "altText": "image",
                     "textBlocks": [
                         {
-                            "text": "We are asking you to take part in a research study because we are trying to learn more about how real kids like you learn to play different games on a computer."
+                            "text": "We are asking you to take part in a research study because we are trying to learn more about how kids like you learn to play different games on a computer."
                         }
                     ],
                     "audio": ""
@@ -1810,6 +1810,93 @@
                         "showInstructions": true
                     },
 
+                    "map-exit": {
+                        "kind": "group",
+                        "frameList": [
+                            {
+                                "id" : "map",
+                                "source": "/Resources/images/instructions/map_exit.png",
+                                "mediaSource": {
+                                    "src": "/Resources/sounds/instructions_mp3/4.mp3",
+                                    "type": "audio/mp3"
+                                },
+                                "instructions": "Great! You made it out of the Arcade and finished our research study!\nPlease ask your parent to complete the next page in order to get your gift card.",
+                                "showInstructions": true
+                            }
+                        ],  
+                        "commonFrameProperties": {
+                            "kind":  "exp-lookit-games",
+                            "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com"
+                        }
+                     },       
+        
+        "handedness-block": {
+                        "kind": "exp-frame-select",
+                        "frameOptions": [
+                            {
+                                
+                                "kind": "exp-lookit-survey",
+                                "formSchema": {
+                                    "schema": {
+                                        "type": "object",
+                                        "title": "<ul> <li> Which is your dominant hand? </li></ul>",
+                                        "properties": {
+                                            "q1": {
+                                                "enum": [
+                                                    "Right",
+                                                    "Left",
+                                                    "Ambidextrous"
+                                                ],
+                                                "type": "string",
+                                                "required": true
+                                            }
+                                        }
+                                    },
+                                    "options": {
+                                        "fields": {
+                                            "q1": {
+                                                "type": "radio",
+                                                "message": "Please answer this question.",
+                                                "validator": "required-field"
+                                            }
+                                        }
+                                    }
+                                },
+                                "showPreviousButton": false
+                            },
+                            {
+                                
+                                "kind": "exp-lookit-survey",
+                                "formSchema": {
+                                    "schema": {
+                                        "type": "object",
+                                        "title": "<ul> <li> Which hand do you normally use at the computer? Please pick one and use it for the whole study. </li></ul>",
+                                        "properties": {
+                                            "q1": {
+                                                "enum": [
+                                                    "Right",
+                                                    "Left"
+                                                ],
+                                                "type": "string",
+                                                "required": true
+                                            }
+                                        }
+                                    },
+                                    "options": {
+                                        "fields": {
+                                            "q1": {
+                                                "type": "radio",
+                                                "message": "Please answer this question.",
+                                                "validator": "required-field"
+                                            }
+                                        }
+                                    }
+                                },
+                                "showPreviousButton": false
+                            }
+                ]
+          },
+        
                      "settings-block": {
                         "kind": "exp-frame-select",
                         "frameOptions": [
@@ -1819,7 +1906,7 @@
                                 "formSchema": {
                                     "schema": {
                                         "type": "object",
-                                        "title": "<ul> <li>Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the maximize button at the top of your browser window. </li> <li> Are you using a mouse or trackpad? If you have both, please use the one you selected for the remainder of the study. </li></ul>",
+                                        "title": "<ul> <li>Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the maximize button at the top of your browser window. </li> <li> Please, do not refresh this page while playing. </li> <li> Are you using a mouse or trackpad? If you have both, please use the one you selected for the remainder of the study. </li></ul>",
                                         "properties": {
                                             "q1": {
                                                 "enum": [
@@ -1857,6 +1944,7 @@
         "parent-consent",  
         "question-block",
         "children-assent",
+        "handedness-block",
         "intro-games-group",
         "game1-group",
         "game2-group",
@@ -1864,6 +1952,7 @@
         "game3-group",
         "game4-group",
         "game5-group",
+        "map-exit",
         "thank-you"
     ]
 }
