@@ -848,7 +848,7 @@
             
                             "kind": "exp-video-config-quality",
                             "title": "Camera settings",
-                            "introText": "Position your camera so that it shows your entire face if possible. When your teen participates, you will have a chance to adjust the camera again. ",
+                            "introText": "Position your camera so that it shows your entire face if possible. If you do not see your own video, your computer’s camera access could be disabled. Please ensure that your settings allow access to the camera.",
                             "requireItemConfirmation": true,
                             "completedItemText": "Did it!",
                             "instructionBlocks": [
@@ -1839,13 +1839,12 @@
                                 "formSchema": {
                                     "schema": {
                                         "type": "object",
-                                        "title": "<ul> <li> Which is your dominant hand? </li></ul>",
+                                        "title": "<ul> <li> Which of these describes the hand you use for most activities? </li></ul>",
                                         "properties": {
                                             "q1": {
                                                 "enum": [
                                                     "Right",
-                                                    "Left",
-                                                    "Ambidextrous"
+                                                    "Left"
                                                 ],
                                                 "type": "string",
                                                 "required": true
@@ -1870,7 +1869,7 @@
                                 "formSchema": {
                                     "schema": {
                                         "type": "object",
-                                        "title": "<ul> <li> Which hand do you normally use at the computer? Please pick one and use it for the whole study. </li></ul>",
+                                        "title": "<ul> <li> Which hand do you normally use at the computer to control the mouse or trackpad? Please pick only one hand and use it for the whole study. </li></ul>",
                                         "properties": {
                                             "q1": {
                                                 "enum": [
@@ -1906,7 +1905,7 @@
                                 "formSchema": {
                                     "schema": {
                                         "type": "object",
-                                        "title": "<ul> <li>Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the maximize button at the top of your browser window. </li> <li> Please, do not refresh this page while playing. </li> <li> Are you using a mouse or trackpad? If you have both, please use the one you selected for the remainder of the study. </li></ul>",
+                                        "title": "<ul> <li>Please make sure your computer or laptop is on a flat surface. Clear the area for the mouse or trackpad so that no objects interfere with your movement. </li>  <li>Set the browser window to the maximum size possible. To do this, press the maximize button at the top of your browser window. </li> <li> Please, do not refresh the page anytime during the study. </li> <li> Are you using a mouse or trackpad? If you have both, please use the one you selected for the remainder of the study. </li></ul>",
                                         "properties": {
                                             "q1": {
                                                 "enum": [
