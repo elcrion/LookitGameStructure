@@ -1497,7 +1497,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_2.png",
-                                "instructions": "You will use your computer mouse to move a basket to catch the gears. The robot will throw the gears one at a time.  ",
+                                "instructions": "You will use your computer mouse or trackpad to move a basket up and down to catch the gears. The robot will throw the gears one at a time. ",
                                 "showInstructions": true
                     
                             },
@@ -1519,7 +1519,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_4.png",
-                                "instructions": "Next, she will throw a gear. When you see the gear, move the basket to catch the gear.  ",
+                                "instructions": "Next, she will throw a gear. When you see the gear, move the basket up to catch the gear. The basket does not move left or right. It only moves up and down.",
                                 "showInstructions": true
                     
                             },
@@ -1554,7 +1554,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/robot_7.png",
-                                "instructions": "Sometimes when the robot throws the gear, there will be some space trash between her and your basket. Try your best to catch the gear, even when the space trash is there!   ",
+                                "instructions": "Sometimes when the robot throws the gear, there will be some space trash between her and your basket. Try your best to catch the gear, even when it goes behind the space trash! ",
                                 "showInstructions": true
                     
                             },
@@ -1694,7 +1694,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/brick_3.png",
-                                "instructions": "Next, a ball will fly toward the paddle. Move the paddle to bounce the ball. Do not lift the paddle before the ball moves.",
+                                "instructions": "Next, a ball will fly toward the paddle. Move the paddle up and down to bounce the ball. Do not lift the paddle before the ball moves.",
                                 "showInstructions": true
                             },
                     
@@ -1805,7 +1805,7 @@
                             "type": "audio/mp3"
                         },
                         "source": "/Resources/images/instructions/controls2.png",
-                        "instructions": "For the next games, you will need to use your computer mouse or trackpad.",
+                        "instructions": "For the next games, you will need to use your computer mouse or trackpad. If you have both, please choose one and use it for the whole study. ",
                         "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                         "showInstructions": true
                     },
@@ -1820,7 +1820,7 @@
                                     "src": "/Resources/sounds/instructions_mp3/4.mp3",
                                     "type": "audio/mp3"
                                 },
-                                "instructions": "Great! You made it out of the Arcade and finished our research study!\nPlease ask your parent to complete the next page in order to get your gift card.",
+                                "instructions": "Great! You made it out of the Arcade and finished our research study!\nPlease ask your parent or guardian to complete the next page in order to get your gift card.",
                                 "showInstructions": true
                             }
                         ],  
