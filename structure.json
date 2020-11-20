@@ -709,7 +709,7 @@
                     "altText": "image",
                     "textBlocks": [
                         {
-                            "text": "If you agree to be in this study, you will be asked to read or listen to some instructions, practice the games, and then play them on your computer at home, while your parent stays in the room with you. In the games we will ask you to catch, bounce, or watch a moving object on the screen. You will also need to press a button or move your mouse/touchpad cursor to play the game."
+                            "text": "If you agree to be in this study, you will be asked to read or listen to some instructions, practice the games, and then play them on your computer at home, while your parent/caregiver stays in the room with you. In the games we will ask you to catch, bounce, or watch a moving object on the screen. You will also need to press a button or move your mouse/touchpad cursor to play the game."
                         }
                     ],
                     "audio": ""
@@ -757,7 +757,7 @@
                     "altText": "image",
                     "textBlocks": [
                         {
-                            "text": "You can talk to your parent/caregiver before you decide if you want to do the study. We will also ask your parents if it is okay for you to do this study. But even if your parents say “yes” you can still decide not to do it."
+                            "text": "You can talk to your parent/caregiver before you decide if you want to do the study. We will also ask your parents/caregivers if it is okay for you to do this study. But even if your parents/caregivers say “yes” you can still decide not to do it."
                         }
                     ],
                     "audio": ""
@@ -1344,7 +1344,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/pizza_2.png",
-                                "instructions": "To start, the cage needs to be inside the box. Use your mouse to move the cage up and down. The box will be red until you put the cage inside it. ",
+                                "instructions": "To start, the cage needs to be inside the box. Use your mouse or trackpad to move the cage up and down. The box will be red until you put the cage inside it. ",
                                 "showInstructions": true
                     
                             },
@@ -1681,7 +1681,7 @@
                                     "type": "audio/mp3"
                                 },
                                 "source": "/Resources/images/instructions/brick_2.png",
-                                "instructions": "To start, use your mouse to put the white paddle in the box and keep it still. If your paddle is not in the box, it will turn red. Then, you will hear a drumroll.   ",
+                                "instructions": "To start, use your mouse or trackpad to put the white paddle in the box and keep it still. If your paddle is not in the box, it will turn red. After you put your paddle in the box, you will hear a drumroll. ",
                                 "showInstructions": true
                             },
                     
@@ -1805,7 +1805,7 @@
                             "type": "audio/mp3"
                         },
                         "source": "/Resources/images/instructions/controls2.png",
-                        "instructions": "For the next games, you will need to use your computer mouse or trackpad. If you have both, please choose one and use it for the whole study. ",
+                        "instructions": "For the next games, you will need to use your computer mouse or trackpad. In the game instructions, we only show a picture of a mouse, for simplicity. If you’re using a trackpad, that’s ok. If you have both, please choose one and use it for the whole study. ",
                         "baseDir": "https://npiproject.s3.us-east-2.amazonaws.com",
                         "showInstructions": true
                     },
