@@ -678,7 +678,7 @@
                 "mp4"
             ],
             "image": "peekaboo_remy.jpg",
-            "imageAnimation": "spin"
+            "imageAnimation": "spin",
             "displayFullscreen": true
         },
 
