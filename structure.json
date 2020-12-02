@@ -670,6 +670,17 @@
             "generateProperties": "function(expData, sequence, child, pastSessions) {var diagnosis_frame = expData['5-question-block-1'];var want_to_play_frame = expData['5-question-block-18']; if(typeof(diagnosis_frame) !== 'undefined' && typeof(diagnosis_frame.formData.diagnosis) !== 'undefined' && diagnosis_frame.formData.diagnosis == 'Yes') { return {'debriefing': {'text': 'If you would like to participate in this and other autism studies, you are invited to visit the <a href=\"https://sparkforautism.org/registration/account_information/#no-back-button\" target=\"_blank\">SPARK</a> website to learn about research studies. At this time, we are not able to enroll participants with autism who are not yet registered in SPARK. Thank you for your understanding.', 'title':  'Thank you for completing these questions.'} }; } else if(typeof(want_to_play_frame) !== 'undefined' && typeof(want_to_play_frame.formData.want_to_play) !== 'undefined' && want_to_play_frame.formData.want_to_play == 'No') {return {'debriefing': {'text': 'Thank you for your interest in our research. You may close your browser window to exit or click on the Lookit logo to see if there are other studies that might be a fit for your teen.', 'title':  'Goodbye!'}};} else {return {'debriefing': {'text': 'Thank you for participating in PAIRS! We hope you enjoyed the games. You will receive an e-mail in the next two weeks with your gift card code. If you have any concerns, you may e-mail the study team at <a href=\"mailto:pairs@mit.edu\"> pairs@mit.edu </a>', 'title': 'Thank you!'}}; }}"
         },  
 
+        "start-recording-with-image": {
+            "kind": "exp-lookit-start-recording",
+            "baseDir": "https://www.mit.edu/~kimscott/placeholderstimuli/",
+            "videoTypes": [
+                "webm",
+                "mp4"
+            ],
+            "image": "peekaboo_remy.jpg",
+            "imageAnimation": "spin"
+            "displayFullscreen": true
+        },
 
 
 
@@ -1944,6 +1955,7 @@
         "question-block",
         "children-assent",
         "handedness-block",
+        "start-recording-with-image",
         "intro-games-group",
         "game1-group",
         "game2-group",
